@@ -1,0 +1,537 @@
+body {
+	
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	background-image: url("../images/cork-wallet.png");	
+
+}
+
+/*Sticky footer*/
+
+.wrapper {
+	position: relative;
+	min-height: 100%
+	margin-bottom: -90px;
+	margin: 0px;
+}
+
+.wrapper:after{
+	content: "";
+	display: block;
+}
+
+footer {
+	height: 90px;
+}
+
+
+.fullwidth {
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 2px #cccccc solid;
+	height: 65px;	
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: 2px #cccccc solid;
+	height: 65px;	
+	position: relative;
+	width: 958px;
+	margin: 0 auto;
+	
+}
+
+.hdftwidth {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+p {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+h1, h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 32px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+header h1 {
+	position: absolute;
+	margin: 0;
+	width: 200px;
+	padding: 21px 25px 21px 25px;
+	font-size: 24px;
+}
+
+header .navigationBar {
+	position: absolute;
+	margin-top: 20px;
+	right: 0px;
+}
+
+header .navigationBar ul {
+	margin: 0px;
+}
+
+header .navigationBar li {
+	list-style-type: none;
+	float: left;
+}
+
+header .navigationBar li a {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+header .navigationBar li a:hover {
+	color: #4aaaa5;
+}
+
+
+header .navigationBar li.navMiddle {
+	padding: 0 14px;
+	margin: 0 14px;
+	border-right: 1px #e1e1e1 solid;
+	border-left: 1px #e1e1e1 solid;
+}
+
+main {
+	width: 958px;
+	margin: 65px auto 0;
+	border: 1px #dddddd solid;
+	position: relative;	
+	z-index: 1;
+}
+
+main h1, main h2 {
+	background-color: #ffffff;
+	color: #4aaaa5; 	
+}
+
+main p {
+	line-height: 160%;
+}
+
+main h1 {
+	padding: 21px 0 21px 0;
+	margin-left: 0px;
+	margin-bottom: 32px;
+	border-bottom: 2px #e1e1e1 solid;
+}
+
+main h2 {
+	margin: 0px 0px 24px 0px;
+	padding-bottom: 24px;
+	border-bottom: 1px #e1e1e1 solid;
+}
+
+.aboutMe, .contact, .portfolio{
+	width: 600px;
+	margin: 39px 36px 0px 0px;
+	border: 2px #dddddd solid;
+	position: relative;
+	background-color: #ffffff;
+	padding: 0px 23px 24px 23px;
+}
+
+.aboutMe img {
+	width: 136px;
+	height: 136px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 8px;
+}
+
+.sideBarConnect {
+	width: 210px;
+	margin: 39px 0 0;
+	border: 2px #dddddd solid;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: #ffffff;
+	padding: 28px;
+}
+
+.sideBarConnect a img {
+	width: 52px;
+	height: 52px;
+}
+
+.sideBarConnect a:hover {
+	border-bottom: 3px #777777 solid;
+}
+
+.sideBarConnect a.middle {
+	margin: 0px 22px;
+}
+
+footer {
+	background-color: #666666;
+	height: 67px;
+	border-top: 6px #4aaaa5 solid;
+	margin-top: 32px;
+	width: 100%;
+	font-size: 10px;
+}
+
+footer p {
+	text-align: center;
+	color: #babbaf;
+	margin: 0;
+	margin-top: 25px;
+}
+
+/*Contact form */
+
+form  {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 18px;
+}
+
+form input {
+	display: block;
+	width: 598px;
+	height: 28px;
+	border: 1px #e1e1e1 solid;
+	margin: 8px 0 0 0;	
+}
+
+form .formMessage {
+	height: 190px;
+	width: 598px;
+	margin: 8px 0 0 0;
+	border: 1px #e1e1e1 solid;	
+	
+}
+
+form .button {
+	background-color: #4aaaa5;
+	width: 108px;
+	height: 37px;
+	color:  #ffffff;	
+	font-size: 18px;
+	margin-top: 18px;
+	border: none;
+}
+
+/*Portfolio */
+
+.portfolio {
+	padding-bottom: 0px;
+}
+
+.picGallery {
+	position: relative;
+	overflow: hidden;
+}
+
+.portfolio .leftcol {
+	width: 280px;
+	float: left;
+}
+
+.portfolio .rightcol {
+	width: 280px;
+	float: right;
+}
+
+.picImage {
+	width: 280px;
+	height: 215px;
+	float: left;
+	margin-bottom: 42px;
+}
+
+.portfolio img {
+	width: 280px;
+	height: 215px;
+	position: relative;
+}
+
+.portfolio a:hover img {
+	opacity: .5;
+	border: 4px #4aaaa5 solid;
+	width: 272px;
+	height: 207px;
+}
+
+.portfolio .titlePic {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	height: 32px;
+	padding-top: 12px;
+	position: relative;
+	bottom: 62px;
+}
+
+.portfolio .titlePic:hover {
+	background-color: #666666;	
+}
+
+/* Media queries below */
+
+/* Media screens with max width of 980px and min width of 769px */
+@media screen and (max-width: 980px) {
+	
+	.hdftwidth {
+		position: relative;
+		margin: 0;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+
+	header h1 {
+		position: relative;
+		float: left;
+	}
+
+	header .navigationBar {
+		position: relative;
+		float: right;
+	}
+
+	header, main, .hdftwidth {
+		width: 750px;
+	}
+
+	.aboutMe, .portfolio, .contact {
+		width: 400px;
+	}
+
+	.aboutMe img, .picImage img, form input, form .formMessage {
+		width: 100%;
+		height: 100%;
+	}
+
+	.portfolio .leftcol, .portfolio .rightcol, .picImage {
+		float: none;
+		width: 100%
+	}
+
+	.portfolio a:hover img {
+		width: 392px;
+		height: 100%
+	}
+
+	form .formMessage {
+		height: 190px;
+	}
+
+}
+
+/* Media screens with max width of 768px and min width of 641 */
+@media screen and (max-width: 768px) {
+
+	.hdftwidth {
+		position: relative;
+		margin: 0;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+
+	header h1 {
+		position: relative;
+		float: left;
+	}
+
+	header .navigationBar {
+		position: relative;
+		float: right;
+	}
+
+	header, main, .hdftwidth {
+		width: 600px;
+	}
+
+	.aboutMe, .portfolio, .contact, .sideBarConnect {
+		width: 550px;
+		margin-right: 0px;
+	}
+
+	.aboutMe img {
+		width: 50%;
+		height: 50%;
+	}
+
+	.sideBarConnect {
+		position: relative;
+		padding: 23px;
+	}
+
+	.portfolio .leftcol, .portfolio .rightcol, .picImage {
+		float: left;
+		width: 265px;
+	}
+
+	.portfolio .leftcol {
+		margin-right: 17px;
+	}
+
+	.portfolio a:hover img {
+		width: 258px;
+		height: 100%
+	}
+
+	form .formMessage {
+		height: 190px;
+	}
+
+}
+
+/* Media screens with max width of 640px*/
+@media screen and (max-width: 640px) {
+
+	body {
+		width: 640px;
+		position: relative;
+	}
+
+.hdftwidth {
+		position: static;
+		margin: 0;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+	}
+
+	.fullwidth, header {
+		height: 100px;
+	}
+
+	header h1 {
+		position: static;
+		float: left;
+		width: 100%;
+		text-align: center;
+		padding: 20px 0;		
+	}
+
+	.fullwidth, header {
+		position: static;
+	}
+	
+	header, main, .hdftwidth {
+		width: 600px;
+	}
+
+	.hdftwidth {
+		background-color: #4aaaa5;
+		height: 100%;
+	}
+
+	header .navigationBar {
+		position: relative;
+		float: left;
+		background-color: #fff;
+		width: 100%;
+		height: 40px;
+		margin-top: 0px;
+		top: 0px;	
+	}
+
+	.navigationBar ul {
+		padding: 10px 90px 0;
+	}
+
+	
+	header .navigationBar li.navMiddle {
+		padding: 0 60px;
+		margin: 0 60px;
+	}
+
+	main {
+		margin-top: 10px;
+	}
+
+	.aboutMe, .portfolio, .contact, .sideBarConnect {
+		width: 550px;
+		margin-right: 0px;
+		margin-top: 20px;
+	}
+	
+	.aboutMe {
+		padding-bottom: 10px; 
+	}
+
+	.aboutMe img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.aboutMe p {
+		line-height: 2;
+		margin-bottom: 20px;
+	}
+	
+	.sideBarConnect {
+		position: relative;
+		padding: 23px;
+	}
+
+	.sideBarConnect a.middle {
+		margin: 0px 8px;
+	}
+
+
+	footer .hdftwidth {
+		background-color: #666;
+		width: 250px;
+		margin: 0 auto;
+	}
+
+	footer .hdftwidth p {
+		text-align: center;
+	}
+
+	.portfolio .leftcol, .portfolio .rightcol, .picImage {
+		float: left;
+		width: 265px;
+	}
+
+	.portfolio .leftcol {
+		margin-right: 17px;
+	}
+
+	.portfolio a:hover img {
+		width: 258px;
+		height: 100%
+	}
+
+	form .formMessage {
+		height: 190px;
+	}
+
+}
